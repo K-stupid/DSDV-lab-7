@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1, h2 {
+    margin: 10px;
+}
+
+#map {
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.province {
+    stroke: #fff;
+    stroke-width: 0.5;
+}
+
+.tooltip {
+    position: absolute;
+    background: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+    pointer-events: none;
+}
